@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# R history, data, output
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Node
+node_modules/
+npm-debug.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large/binary data (do not commit raw sequencing/big binary files)
+data/
+results/
+*.bam
+*.fastq
+*.fq
+*.fasta
+*.fa
+*.img
+*.raw
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
