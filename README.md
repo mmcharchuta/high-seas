@@ -17,6 +17,8 @@ chromosome conformation capture techniques for rational biopesticide design" pro
 
 We base the dry‑lab workflow on the nf-core/hic Nextflow pipeline (nf-core/hic v2.1.0). See the official pipeline documentation: https://nf-co.re/hic/2.1.0/
 
+submodule add <https://github.com/nf-core/hic/tree/2.1.0>
+
 Summary of how we use and adapt nf-core/hic for bacterial Hi‑C:
 - Use nf-core/hic v2.1.0 as the core processing pipeline for mapping, filtering, and building contact maps.
 - Apply bacteria-specific presets and parameter changes (smaller genome sizes, enzyme cut-site handling, single‑chromosome/plasmid-aware references).
