@@ -4,9 +4,22 @@ High Seas (a playful twist on "Hi-C's = High-thorughput Chromosomal Capture Tech
 ![Project Logo Idea](./graphics/Project_logo_idea.png)
 It is a project of The Biological Software Section of the Natural Sciences Club at Adam Mickiewicz University.
 
-## Overview
+## Overview - wetlab
 
-This repository will host all source code, documentation, and resources for the project.
+This repository will host all source code, documentation, and resources for the "Improving the genomic study of entomopathogenic strains of Bacillus thuringiensis with
+chromosome conformation capture techniques for rational biopesticide design" project.
+
+![Hi-C protocol diagram](./graphics/Hi-C-protocol.png)
+
+*Figure: Hi‑C protocol overview.*
+
+## Overview - drylab
+
+We want to modify the Hi-C Nextflow pipeline as per:
+
+Servant, N., Ewels, P., Garcia, M. U., Talbot, A., Peltzer, A., & Miller, E. (2023). nf-core/hic: nf-core/hic v2. 1.0. Zenodo.
+
+to make it suitable for bacterial Hi-C
 
 ## Features
 
